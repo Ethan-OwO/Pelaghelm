@@ -11,6 +11,22 @@
 | 關於 / 聯絡 | <https://pelaghelm.vercel.app/about> |
 | 狀態展示(開發用) | <https://pelaghelm.vercel.app/demo> |
 
+## 畫面預覽
+
+> 圖片放在 [`docs/screenshots/`](docs/screenshots/),檔名約定與規格見該資料夾的 [README](docs/screenshots/README.md)。
+
+### 首頁
+
+![首頁](docs/screenshots/home.png)
+
+### 海況地圖
+
+![海況地圖](docs/screenshots/map.png)
+
+選取海域後的詳情面板與 12 小時走勢圖:
+
+![海域詳情](docs/screenshots/map-detail.png)
+
 ## 目前進度
 
 **M1(海況資料整合)、M2(危險判斷後端)、M3(Supabase 快取層)、M4(前端整站 + 歷史資料)已完成。海況分區已從 4 個粗略區域擴充為 25 個(17 近海 + 8 遠海)。**
