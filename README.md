@@ -4,28 +4,20 @@
 
 給漁民使用的海況 App。整合中央氣象署(CWA)與國際海象資料(Open-Meteo / OpenWeather),依風速、浪高與官方警特報,將指定海域算出**安全 / 注意 / 危險**三級評級。規劃中的後續階段將加入 GPS 定位、文字回報與地圖,形成漁民互助的即時海況地圖。
 
+![海況地圖 — 台灣 SVG 海圖 + 25 個海域分區的即時評級](docs/screenshots/map.png)
+
+「出海筊」的海況地圖([/map](https://pelaghelm.vercel.app/map)):左邊是 25 個海域分區的評級標記,右邊是選取海域的三級評級、12 小時風速 / 浪高 / 海表溫走勢,以及判定依據。
+
+![海域清單 — 25 區的可排序總覽表](docs/screenshots/seas.png)
+
+同一頁往下是海域清單:點表頭排序、點海區名稱切換右側詳情;右側列出這一區被判為「注意」的每一條理由(蒲福風級、浪高、官方警特報)。
+
 | 頁面 | 網址 |
 | ---- | ---- |
 | 首頁 | <https://pelaghelm.vercel.app/> |
 | 海況地圖 | <https://pelaghelm.vercel.app/map> |
 | 關於 / 聯絡 | <https://pelaghelm.vercel.app/about> |
 | 狀態展示(開發用) | <https://pelaghelm.vercel.app/demo> |
-
-## 畫面預覽
-
-> 圖片放在 [`docs/screenshots/`](docs/screenshots/),檔名約定與規格見該資料夾的 [README](docs/screenshots/README.md)。
-
-### 首頁
-
-![首頁](docs/screenshots/home.png)
-
-### 海況地圖
-
-![海況地圖](docs/screenshots/map.png)
-
-選取海域後的詳情面板與 12 小時走勢圖:
-
-![海域詳情](docs/screenshots/map-detail.png)
 
 ## 目前進度
 
